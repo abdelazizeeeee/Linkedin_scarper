@@ -83,9 +83,7 @@ class WebscrapeJson:
             profiles_links = self.get_all_profiles("app-aware-link ")
             for profile in profiles_links:
                 print("the link", profile)
-                with open("products2.csv", "a+") as profiles_file:
-                    infomation["member_link"] = profile
-                    self.convert_to_json_file(infomation)
+                self.convert_to_json_file(infomation)
             try:
                 driver.get(
                     f"https://www.linkedin.com/search/results/people/?keywords={self.keyword}&origin=GLOBAL_SEARCH_HEADER&page={page}"
@@ -96,3 +94,7 @@ class WebscrapeJson:
 
 
 
+keyword = input("Put the keyword : ")
+webscrape=WebscrapeJson("saidishadow@gmail.com","aziz1234",keyword)
+webscrape.logIn()
+webscrape.collect_information()

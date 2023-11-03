@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+linkedin_information_collections_scraper.egg-info/PKG-INFO
+linkedin_information_collections_scraper.egg-info/SOURCES.txt
+linkedin_information_collections_scraper.egg-info/dependency_links.txt
+linkedin_information_collections_scraper.egg-info/requires.txt
+linkedin_information_collections_scraper.egg-info/top_level.txt
+linkedin_package/__init__.py
+linkedin_package/csv_scrape.py
+linkedin_package/json_srape.py
