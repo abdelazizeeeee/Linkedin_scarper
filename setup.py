@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = "0.0.20"
+VERSION = "0.0.21"
 DESCRIPTION = (
     "a scrpit to get all the links about peaple who are intersted by given keyword"
 )
