@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: linkedin-information-collections-scraper
+Version: 0.0.21
+Summary: a scrpit to get all the links about peaple who are intersted by given keyword
+Author-email: <abdelaziz.naija@horizon-tech.tn>
+Keywords: python,video,stream,video stream,camera stream,sockets
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium==4.15.1
+Requires-Dist: attrs==23.1.0
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: h11==0.14.0
+Requires-Dist: idna==3.4
+Requires-Dist: outcome==1.3.0.post0
+Requires-Dist: PySocks==1.7.1
+Requires-Dist: sniffio==1.3.0
+Requires-Dist: sortedcontainers==2.4.0
+Requires-Dist: trio==0.23.0
+Requires-Dist: trio-websocket==0.11.1
+Requires-Dist: urllib3==2.0.7
+Requires-Dist: wsproto==1.2.0
+
+
+# collect_informations_linkedin_scraper
+
+
+## This package allow you to get informations about people who are interested about a given keyword and get it in json file
+
+## HOW TO USE IT :
+### first step : from linkedin_package.json_scrape or csv_scrape import webscrape
+### then put your keyword in the input filed in the terminal , after that webscrape need an email and password and keyword like a parameter 
+### and finally yyou can tell the function login() and collect_informations() to get the result 
+
